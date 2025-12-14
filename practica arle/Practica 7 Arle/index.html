@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Aprender Java</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+
+    <header>
+        <h1>Aprender Java</h1>
+        <p>Guía básica para comenzar en programación Java</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#que-es">¿Qué es Java?</a></li>
+            <li><a href="#conceptos">Conceptos Básicos</a></li>
+            <li><a href="#ventajas">Ventajas</a></li>
+        </ul>
+    </nav>
+
+    <section id="que-es">
+        <h2>¿Qué es Java?</h2>
+        <p>
+            Java es un lenguaje de programación muy utilizado para crear aplicaciones
+            de escritorio, aplicaciones web y aplicaciones móviles. Es un lenguaje
+            seguro, robusto y multiplataforma.
+        </p>
+    </section>
+
+    <section id="conceptos">
+        <h2>Conceptos Básicos de Java</h2>
+        <ul>
+            <li>Variables y tipos de datos</li>
+            <li>Condicionales (if, switch)</li>
+            <li>Ciclos (for, while, do-while)</li>
+            <li>Métodos</li>
+            <li>Arrays y ArrayList</li>
+        </ul>
+    </section>
+
+    <section id="ventajas">
+        <h2>Ventajas de Java</h2>
+        <p>
+            Java permite escribir un programa una sola vez y ejecutarlo en diferentes
+            sistemas operativos. Además, es uno de los lenguajes más solicitados en el
+            mundo laboral.
+        </p>
+    </section>
+
+    <section id="variables">
+        <h2>Variables en Java</h2>
+        <p>
+            Una variable es un espacio en memoria donde se guarda un dato. En Java,
+            cada variable debe tener un tipo de dato.
+        </p>
+        <pre>
+int edad = 19;
+double nota = 4.5;
+String nombre = "Nicole";
+        </pre>
+    </section>
+
+    <section id="operadores">
+        <h2>Operadores en Java</h2>
+        <p>Los operadores permiten realizar operaciones sobre variables y valores.</p>
+        <ul>
+            <li><strong>Aritméticos:</strong> +  -  *  /  %</li>
+            <li><strong>Relacionales:</strong> ==  !=  >  <  >=  <=</li>
+            <li><strong>Lógicos:</strong> &&  ||  !</li>
+        </ul>
+        <pre>
+int a = 10;
+int b = 5;
+System.out.println(a + b); // suma
+System.out.println(a > b); // comparación
+        </pre>
+    </section>
+
+    <section id="ifelse">
+        <h2>Estructura if - else</h2>
+        <p>
+            La estructura if - else se usa para tomar decisiones en el programa
+            según una condición.
+        </p>
+        <pre>
+int edad = 20;
+
+if (edad >= 18) {
+    System.out.println("Mayor de edad");
+} else {
+    System.out.println("Menor de edad");
+}
+        </pre>
+    </section>
+
+    <section id="ternario">
+        <h2>Operador Ternario</h2>
+        <p>
+            El operador ternario es una forma corta de escribir un if - else.
+        </p>
+        <pre>
+int edad = 20;
+String mensaje = (edad >= 18) ? "Mayor de edad" : "Menor de edad";
+System.out.println(mensaje);
+        </pre>
+    </section>
+
+    
+
+</body>
+</html>
